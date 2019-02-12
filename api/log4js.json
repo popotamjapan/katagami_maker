@@ -1,0 +1,9 @@
+{
+  "appenders": {
+    "system":   { "type": "file", "filename": "system.log" },
+    "console":  { "type": "console" }
+  },
+  "categories": {
+    "default":  { "appenders":["system", "console"], "level": "debug" }
+  }
+}
